@@ -27,7 +27,7 @@ function Filter() {
                 <span class='font-bold'>Houses</span>
             </div>
             <div class="divider divider-horizontal"></div>
-            <button class="btn btn-primary mb-4">Search</button>
+            <button class="btn bg-violet-500 mb-4 hover:bg-violet-600">Search</button>
 
         </div>
     )

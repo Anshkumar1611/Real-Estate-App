@@ -1,14 +1,16 @@
 import React from 'react'
+import data from './Data/data'
+function SearchBar({filterItems}) {
 
-function SearchBar() {
   return (
-    <div class="form-control w-full max-w-s">
-      <select class="select select-bordered">
-        <option disabled selected>Search with SearchBar</option>
-        <option>Location</option>
-        <option>Price</option>
-        <option>Property Type</option>
-        <option>Select Move-in Date</option>
+    <div class="form-control w-full max-w-s" onClick={()=>filterItems(data.propertyType)}>
+      <select defaultValue={Option} class="select select-bordered" >
+        <option>Categories of Houses</option>
+        <option>All</option>
+        <option>Single-family</option>
+        <option>Multi-family</option>
+        <option>Apartment</option>
+        <option>Bungalow</option>
       </select>
     </div>
   )

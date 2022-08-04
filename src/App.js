@@ -1,30 +1,17 @@
-import React, { useState } from "react";
-import Filter from "./components/Filter";
-import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
-import Results from "./components/Results";
-import Search from "./components/Search";
-import data from "./components/utils/Data/data"
-
+import React from "react";
+import Filter from "./components/Layouts/Hero/Filter";
+import Footer from "./components/Layouts/Footer/Footer";
+import Navbar from "./components/Layouts/Header/Navbar";
+import Results from "./components/Layouts/Hero/Results";
+import Search from "./components/Layouts/Hero/Search";
+ 
 function App() {
-  const [type, setType] = useState(data)
-
-  const filterItems = (propertyType) => {
-    if (propertyType === 'All') {
-      setType(data)
-      return;
-    }
-    const newItems = data.filter((item) => item.propertyType === propertyType);
-    setType(newItems);
-
-  }
-
 
   return (<>
     <Navbar />
-    <div class='bg-base-200'>
-      <div class='mx-20 py-5'>
-        <Search filterItems={filterItems}/>
+    <div className='bg-base-200'>
+      <div className='mx-20 py-5'>
+        <Search />
         <Filter />
         <Results />
         <Footer />

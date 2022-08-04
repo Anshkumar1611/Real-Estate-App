@@ -12,6 +12,7 @@ const data = [
     },
     {
         id: '2',
+        type:'1',
         price: '5000',
         url:'https://cdn.pixabay.com/photo/2016/11/21/15/09/apartments-1845884__340.jpg',
         city: "San Francisco",
@@ -23,6 +24,7 @@ const data = [
     },
     {
         id: '3',
+        type:'2',
         price: '3000',
         url:'https://media.istockphoto.com/photos/house-entrance-porch-with-railings-picture-id515196423?k=20&m=515196423&s=612x612&w=0&h=ec57NDUFVOmnboJjwLl-4ugr7l_BrbQfRWHF1g8s5gU=',
         city: "Portland",
@@ -34,7 +36,7 @@ const data = [
     },
     {
         id: '4',
-        price: '15000',
+        price: '15500',
         url:'https://cdn.pixabay.com/photo/2014/07/10/17/18/large-home-389271__340.jpg',
         city: "San Antonio",
         formattedAddress: "5314 Park Lk, San Antonio, TX 78244",
@@ -56,7 +58,7 @@ const data = [
     },
     {
         id: '6',
-        price: '14000',
+        price: '16000',
         url:'https://cdn.pixabay.com/photo/2017/09/17/18/15/lost-places-2759275__340.jpg',
         city: "San Antonio",
         formattedAddress: "5314 Park Lk, San Antonio, TX 78244",
@@ -67,6 +69,7 @@ const data = [
     },
     {
         id: '7',
+        type:'1',
         price: '5500',
         url:'https://cdn.pixabay.com/photo/2016/11/21/15/09/apartments-1845884__340.jpg',
         city: "San Antonio",
@@ -80,7 +83,7 @@ const data = [
         id: '8',
         price: '2750',
         url:'https://media.istockphoto.com/photos/run-down-bungalow-house-with-blue-garage-picture-id176868516?k=20&m=176868516&s=612x612&w=0&h=z7FVZ2G4BR_RwvMpt2saCKMdHZmqUPKMt0yf8Uwua8Y=',
-        city: "San Franciscov",
+        city: "San Francisco",
         formattedAddress: "5314 Park Lk, San Francisco, TX 78244",
         propertyType: 'Single Family',
         bedrooms: '3 Bedrooms',
@@ -89,6 +92,7 @@ const data = [
     },
     {
         id: '9',
+        type:'1',
         price: '5200',
         url:'https://media.istockphoto.com/photos/modern-home-with-swimming-pool-picture-id147205632?k=20&m=147205632&s=612x612&w=0&h=R_VZIGFGFfs8lCGp4J_0nGYTWqkQPnwN37hrqS_tAAs=',
         city: "Boston",
@@ -100,6 +104,7 @@ const data = [
     },
     {
         id: '10',
+        type:'2',
         price: '3200',
         url:'https://media.istockphoto.com/photos/front-view-of-newly-constructed-beautiful-home-picture-id501820009?k=20&m=501820009&s=612x612&w=0&h=JLGYx9aJ8brY4NRj1AwclFrQifwVZ9K1R5TfIWZ84Wo=',
         city: "San Antonio",
@@ -133,14 +138,15 @@ const data = [
     },
     {
         id: '13',
+        type:'2',
         price: '3600',
         url:'https://cdn.pixabay.com/photo/2017/07/26/18/06/sky-2542606__340.jpg',
         city: "Boston",
         formattedAddress: "5314 Park Lk, Boston, TX 78244",
         propertyType: 'Multi-family',
-        bedrooms: '4 Bedrooms',
-        bathrooms: '2 Bathrooms',
-        squareFootage: '1600 msq',
+        bedrooms: '6 Bedrooms',
+        bathrooms: '4 Bathrooms',
+        squareFootage: '3200 msq',
     },
     {
         id: '14',
@@ -166,6 +172,7 @@ const data = [
     },
     {
         id: '16',
+        type:'2',
         price: '3800',
         url:'https://cdn.pixabay.com/photo/2016/11/29/04/57/architecture-1867426__340.jpg',
         city: "Portland",
@@ -188,14 +195,14 @@ const data = [
     },
     {
         id: '18',
-        price: '8000',
+        price: '18000',
         url:'https://media.istockphoto.com/photos/back-yard-of-two-story-home-picture-id1348833319?k=20&m=1348833319&s=612x612&w=0&h=0dfiAVxuzb9gWp7CxOk-bZragh-sYgEQPbQKQSo7NBQ=',
         city: "San Antonio",
         formattedAddress: "5314 Park Lk, San Antonio, TX 78244",
         propertyType: 'Bungalow',
         bedrooms: '10 Bedrooms',
         bathrooms: '6 Bathrooms',
-        squareFootage: '8000 msq',
+        squareFootage: '18000 msq',
     }
 ]
 export default data
